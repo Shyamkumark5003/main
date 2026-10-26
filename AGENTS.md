@@ -4,7 +4,7 @@ Rules for AI coding tools and for people working in this repository. Keep this f
 The full rules are in the FDE Technical Playbook; rule IDs such as SEC-06 point there.
 
 ## Project
-- Purpose: <one sentence about what this service does>.
+- Purpose: sed -i 's|^- Purpose: .*|- Purpose: Answers IT helpdesk questions from policy, procedure and FAQ documents, with citations.|' AGENTS.md
 - Stack: Python (latest stable), FastAPI, PostgreSQL, Docker, Caddy.
 
 ## Commands (run these; do not guess)
